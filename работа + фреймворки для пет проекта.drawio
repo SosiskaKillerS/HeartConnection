@@ -1,0 +1,95 @@
+<mxfile host="Electron" modified="2024-08-01T19:43:08.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="PxGCybPPpPqzTKECuVDp" version="24.5.3" type="device">
+  <diagram name="Страница — 1" id="2okndy1xV6ZvNueZFMxj">
+    <mxGraphModel dx="797" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/users.svg;" vertex="1" parent="1">
+          <mxGeometry x="89" y="305" width="33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_NfcXjBDdWelk_-W4DC-1" target="U_NfcXjBDdWelk_-W4DC-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="349" y="415" as="sourcePoint" />
+            <mxPoint x="199" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-5" value="front&lt;span style=&quot;background-color: initial;&quot;&gt;: html, css, js&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="159" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_NfcXjBDdWelk_-W4DC-5" target="U_NfcXjBDdWelk_-W4DC-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209" y="370" as="sourcePoint" />
+            <mxPoint x="199" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="199" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-10" value="api: flask" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="159" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-12" value="database: sql" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="159" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_NfcXjBDdWelk_-W4DC-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198.71" y="170" as="sourcePoint" />
+            <mxPoint x="198.71" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="198.71" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_NfcXjBDdWelk_-W4DC-10" target="U_NfcXjBDdWelk_-W4DC-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209" y="160" as="sourcePoint" />
+            <mxPoint x="208.71" y="120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-16" value="save files: YandexCloud" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="279" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-17" value="cash: memcash" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="42" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_NfcXjBDdWelk_-W4DC-17" target="U_NfcXjBDdWelk_-W4DC-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="200" as="sourcePoint" />
+            <mxPoint x="289" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-19" value="Celery" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="279" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_NfcXjBDdWelk_-W4DC-10" target="U_NfcXjBDdWelk_-W4DC-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209" y="160" as="sourcePoint" />
+            <mxPoint x="208.71" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="130" />
+              <mxPoint x="320" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-22" value="Elastick search" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="42" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U_NfcXjBDdWelk_-W4DC-10" target="U_NfcXjBDdWelk_-W4DC-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="150" as="sourcePoint" />
+            <mxPoint x="278" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="179" y="130" />
+              <mxPoint x="82" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_NfcXjBDdWelk_-W4DC-24" value="web server: nginx" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
